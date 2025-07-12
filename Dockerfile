@@ -1,4 +1,4 @@
-FROM node:20.18.1
+FROM node:lts-buster  # node 20.15.0 (compatible with your current packages)
 
 WORKDIR /app
 
